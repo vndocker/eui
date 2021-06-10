@@ -21,7 +21,7 @@
 // inputs with their labels and other descriptive text elements.
 function makeId(): string {
   console.log(
-    'WARNING: makeId is deprecated. Use htmlIdGenerator from @elastic/eui instead.'
+    'WARNING: makeId is deprecated. Use htmlIdGenerator from eui-latest instead.'
   );
   return Math.random().toString(36).slice(-8);
 }
